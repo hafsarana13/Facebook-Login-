@@ -1,0 +1,102 @@
+{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4dfdf;
+
+}
+.container{
+    margin: 10px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.leftpart{
+    width: 40%;
+}
+h1{
+    color: #0273cf;
+    font-size: 80px;
+}
+h3{
+    color: black;
+    font-size: 30px;
+}
+.Rightpart{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: -10px -10px 15px rgb(0,0,0,0.1),
+    10px 10px 15px rgba(0,0,0,0.1);
+    border-radius: 10;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+input{
+    width: 380px;
+    height: 50px;  
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+button[type="Login"]{
+    background-color: rgb(22, 103, 253);
+    color:#fff;
+    width: 350px;
+    height: 50;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px; 
+}
+ p{
+    color: #0273cf;
+ }
+hr{
+    border:1px  solid #d6d3d3;
+    width: 320px;
+    margin: 20px 0px;
+ }
+ .createaccount{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    color:#fff;
+    font-size: 18px; 
+    font-weight:30px;
+    border-radius: 11px;
+
+ }
+ a{
+    color: #fff;
+   
+ }
